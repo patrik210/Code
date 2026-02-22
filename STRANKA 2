@@ -3,91 +3,80 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kuklinc Server</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&display=swap" rel="stylesheet">
+<title>kuklinc-server-2026</title>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
 body{
-font-family:'Inter',sans-serif;
-background:#0b140b;
+font-family:Arial, sans-serif;
+background:#0c1a0c;
 color:white;
 }
 
-.hero{
+.main{
 height:100vh;
 display:flex;
 flex-direction:column;
 justify-content:center;
 align-items:center;
 text-align:center;
-background:linear-gradient(160deg,#0b140b,#0f2f0f);
+background:linear-gradient(140deg,#0c1a0c,#133813);
 }
 
 h1{
-font-size:64px;
-font-weight:800;
-color:#39ff88;
-text-shadow:0 0 25px #39ff88;
+font-size:60px;
+color:#35ff7a;
+text-shadow:0 0 20px #35ff7a;
 }
 
-.subtitle{
-margin-top:20px;
-font-weight:300;
+p{
+margin-top:15px;
+font-size:18px;
 opacity:0.8;
-font-size:20px;
 }
 
 .ip{
-margin-top:35px;
-padding:18px 40px;
-border:2px solid #39ff88;
-border-radius:14px;
-font-weight:600;
-font-size:18px;
-background:rgba(57,255,136,0.08);
-transition:0.3s;
-}
-
-.ip:hover{
-box-shadow:0 0 25px #39ff88;
-transform:scale(1.05);
+margin-top:30px;
+padding:15px 35px;
+border:2px solid #35ff7a;
+border-radius:10px;
+font-weight:bold;
+background:rgba(53,255,122,0.1);
 }
 
 .section{
-padding:80px 20px;
+padding:60px 20px;
 text-align:center;
 }
 
-.cards{
+.boxes{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
-gap:30px;
-margin-top:40px;
+gap:20px;
+margin-top:30px;
 }
 
-.card{
-background:#111c11;
-padding:30px;
-border-radius:16px;
-width:280px;
+.box{
+background:#122412;
+padding:25px;
+width:250px;
+border-radius:12px;
 transition:0.3s;
 }
 
-.card:hover{
-transform:translateY(-8px);
-box-shadow:0 0 20px rgba(57,255,136,0.3);
-}
-
-.card h3{
-color:#39ff88;
-margin-bottom:15px;
+.box:hover{
+transform:translateY(-5px);
+box-shadow:0 0 15px rgba(53,255,122,0.4);
 }
 
 footer{
-padding:25px;
+padding:20px;
 text-align:center;
 background:#050805;
 font-size:14px;
@@ -97,32 +86,32 @@ opacity:0.6;
 </head>
 <body>
 
-<div class="hero">
-<h1>KUKLINC</h1>
-<div class="subtitle">Moderný Minecraft Survival Server</div>
+<div class="main">
+<h1>KUKLINC SERVER</h1>
+<p>Moderný Minecraft Survival zážitok</p>
 <div class="ip">mc.kuklincserver.online</div>
 </div>
 
 <div class="section">
-<h2>Čo ťa čaká?</h2>
-<div class="cards">
-<div class="card">
-<h3>Survival</h3>
-<p>Vyvážená ekonomika a ochrana proti griefu.</p>
+<h2>Prečo sa pripojiť?</h2>
+<div class="boxes">
+<div class="box">
+<h3>Stabilita</h3>
+<p>Minimálny lag a rýchly hosting.</p>
 </div>
-<div class="card">
+<div class="box">
 <h3>Eventy</h3>
-<p>Pravidelné turnaje a špeciálne odmeny.</p>
+<p>Turnaje a špeciálne odmeny.</p>
 </div>
-<div class="card">
+<div class="box">
 <h3>Komunita</h3>
-<p>Aktívni hráči a stabilný server.</p>
+<p>Aktívni hráči a priateľská atmosféra.</p>
 </div>
 </div>
 </div>
 
 <footer>
-© 2026 Kuklinc Server
+© 2026 kuklinc-server-2026
 </footer>
 
 </body>
